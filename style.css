@@ -1,0 +1,95 @@
+.container {
+    background: #2B3944;
+    width: 640px;
+    height: 380px;
+    display:flex;
+    border-radius: 10px 10px 10px 10px;
+    font-family: Roboto;
+}
+.photo-column {
+    width: 260px;
+    height: 380px;
+    background-color: grey;
+    border: solid 1px white;
+    border-radius: 10px 0px 0px 10px;
+}
+.info-column {
+    width: 380px;
+    height: 380px;
+    border-radius: 0px 0px 10px 0px;
+}
+.name-container {
+    width: 383px;
+    height: 190px;
+    background-color: #192028;
+    border-radius: 0px 10px 0px 0px;
+    border: solid 1px white;
+}
+.contact-container {
+    width: 363px;
+    height: 132px;
+    background-color: #2B3944;
+    border-radius: 0px 0px 10px 0px;
+    border: solid 1px white;
+    padding-top: 29px;
+    padding-left: 20px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.name {
+    color: #FFFFFF;
+    font-size: 25px;
+    width: 125px;
+    height: 29px;
+    padding-top: 44px;
+    padding-left: 19px;
+    padding-bottom: 4px;
+}
+.surname {
+    color: #FFFFFF;
+    font-size: 40px;
+    width: 147px;
+    height: 35px;
+    padding-left: 19px;
+}
+.position {
+    color: #6487A1;
+    font-size: 25px;
+    width: 157px;
+    height: 29px;
+    padding-top: 26px;
+    padding-left: 20px;
+}
+.address {
+    color: #FFFFFF;
+    font-size: 20px;
+    display:flex;
+}
+.email {
+    color: #FFFFFF;
+    font-size: 20px;
+    display:flex;
+}
+.phone {
+    color: #FFFFFF;
+    font-size: 20px;
+    display:flex;
+}
+.email {
+    border-bottom: 1px solid white;
+    padding-left: 5px;
+}
+.phone {
+    border-bottom: 1px solid white;
+    padding-left: 5px;
+}
+.address {
+    border-bottom: 1px solid white;
+    padding-left: 5px;
+}
+
